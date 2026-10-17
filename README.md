@@ -60,8 +60,6 @@ frontend/
   public/
   src/
     components/  pages/  services/  context/  types/  constants/
-ml/
-  Decision_Tree.ipynb   # Decision Tree training and evaluation (Google Colab)
 ```
 
 ## Getting Started
