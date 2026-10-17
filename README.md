@@ -104,7 +104,12 @@ Real credentials are not included in this repository. `.env` files are excluded 
 
 ## Dataset
 
-The model was trained on a dataset of 4,424 student records. <!-- Add the dataset name, source, and license/link here. -->
+The models were trained on the **Predict Students' Dropout and Academic Success** dataset from the UCI Machine Learning Repository (4,424 student records; target classes: Dropout, Enrolled, Graduate).
+
+- Source: https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success
+- License: CC BY 4.0
+
+The dataset itself is not included in this repository; please download it from the link above.
 
 ## License
 
