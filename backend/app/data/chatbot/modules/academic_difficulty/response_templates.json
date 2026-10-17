@@ -1,0 +1,47 @@
+{
+  "academic_difficulty": {
+    "LOW": {
+      "text": "Your academic risk is low! Here are some study tips based on successful students:",
+      "tips": [
+        "Form study groups with classmates",
+        "Use the university's tutoring center",
+        "Review material within 24 hours of lectures",
+        "Create a consistent study schedule",
+        "Use active recall techniques"
+      ],
+      "resources": [
+        "Academic Success Center - Room 203",
+        "Peer Tutoring Program - sign up online",
+        "Study Skills Workshop - every Tuesday"
+      ]
+    },
+    "MEDIUM": {
+      "text": "You're showing some academic concerns. We recommend:",
+      "tips": [
+        "Meet with your academic advisor this week",
+        "Consider reducing your course load next semester",
+        "Use professor's office hours regularly",
+        "Join a study group for difficult subjects"
+      ],
+      "resources": [
+        "Academic Advising - Book appointment online",
+        "Supplemental Instruction sessions",
+        "Time management workshop - Thursday 2pm"
+      ]
+    },
+    "HIGH": {
+      "text": " URGENT: Your academic performance needs immediate attention.",
+      "tips": [
+        "Schedule mandatory meeting with academic advisor TODAY",
+        "Review your study strategies immediately",
+        "Consider academic probation support program",
+        "Attend all office hours this week"
+      ],
+      "resources": [
+        "Academic Alert System - you've been flagged",
+        "Dean's Office - emergency appointment available",
+        "Student Success Team - will contact you within 24h"
+      ]
+    }
+  }
+}

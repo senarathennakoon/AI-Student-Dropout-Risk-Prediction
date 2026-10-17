@@ -1,0 +1,8 @@
+{
+  "risk_inquiry": {
+    "text": "Based on your profile, your dropout risk level is {risk_level}. The main factors affecting this are: {factors}",
+    "LOW": "You're on track! Key strengths: {factors}",
+    "MEDIUM": "You have some risk factors to address: {factors}",
+    "HIGH": " You have multiple high-risk factors: {factors}"
+  }
+}

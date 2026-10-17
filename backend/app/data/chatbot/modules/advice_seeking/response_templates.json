@@ -1,0 +1,8 @@
+{
+  "advice_seeking": {
+    "text": "Based on your {risk_level} risk profile, here's personalized advice:",
+    "LOW": "Focus on maintaining your good habits. Key areas: {factors}",
+    "MEDIUM": "Priority areas for improvement: {factors}",
+    "HIGH": "URGENT: Address these factors immediately: {factors}"
+  }
+}

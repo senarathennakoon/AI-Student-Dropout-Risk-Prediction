@@ -1,0 +1,46 @@
+{
+  "motivation_issues": {
+    "LOW": {
+      "text": "Staying motivated is key! Here are some ideas:",
+      "tips": [
+        "Connect with student clubs and organizations",
+        "Set small, achievable weekly goals",
+        "Find a study buddy or accountability partner",
+        "Remember your long-term career goals"
+      ],
+      "resources": [
+        "Student Life - club listings",
+        "Motivation Workshop - online",
+        "Peer Mentoring Program"
+      ]
+    },
+    "MEDIUM": {
+      "text": "Loss of motivation is common but manageable:",
+      "tips": [
+        "Speak with a counselor about motivation",
+        "Take a career assessment test",
+        "Talk to professors in your major",
+        "Join a support group for students"
+      ],
+      "resources": [
+        "Counseling Center - appointment available",
+        "Career Services - explore options",
+        "Student Support Group - meets Fridays"
+      ]
+    },
+    "HIGH": {
+      "text": " Your motivation concerns need immediate attention:",
+      "tips": [
+        "SCHEDULE COUNSELING APPOINTMENT TODAY",
+        "Talk to someone you trust immediately",
+        "Don't make any decisions alone",
+        "Take a mental health day if needed"
+      ],
+      "resources": [
+        "Counseling Center - crisis line: 555-0123",
+        "24/7 Student Support Hotline",
+        "Dean of Students - immediate assistance"
+      ]
+    }
+  }
+}

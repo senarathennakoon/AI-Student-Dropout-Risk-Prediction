@@ -1,0 +1,46 @@
+{
+  "time_management": {
+    "LOW": {
+      "text": "Your time management is good! Here's how to maintain it:",
+      "tips": [
+        "Use a planner or digital calendar",
+        "Block out study time for each subject",
+        "Take regular breaks (Pomodoro technique)",
+        "Review your schedule weekly"
+      ],
+      "resources": [
+        "Time Management Workshop - online module",
+        "Planner templates available at Student Success",
+        "Productivity apps: recommended list"
+      ]
+    },
+    "MEDIUM": {
+      "text": "Time management could be improved. Try these strategies:",
+      "tips": [
+        "Create a fixed daily study schedule",
+        "Reduce non-essential commitments",
+        "Use the 2:1 ratio (2 hours study : 1 hour work)",
+        "Set specific goals for each study session"
+      ],
+      "resources": [
+        "Time Management Counseling - book appointment",
+        "Weekly planning template - download",
+        "Student Success Workshop - Thursday"
+      ]
+    },
+    "HIGH": {
+      "text": " Your time management is critically impacting your studies.",
+      "tips": [
+        "MEET WITH ACADEMIC ADVISOR IMMEDIATELY",
+        "Consider reducing work hours or course load",
+        "Create emergency study plan for this week",
+        "Use university's time management coach"
+      ],
+      "resources": [
+        "Academic Advising - emergency appointment",
+        "Student Success Coordinator - assigned to you",
+        "Time Management Intensive Program"
+      ]
+    }
+  }
+}
