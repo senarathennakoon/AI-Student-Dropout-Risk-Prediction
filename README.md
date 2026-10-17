@@ -34,7 +34,10 @@ The system classifies students into **Low**, **Medium**, and **High** risk using
 ## My Individual Contribution
 
 - **Staff Dashboard:** designed and built the staff dashboard interface: summary cards (total students and High / Medium / Low risk counts), filters by course, academic year, and risk level, a risk level distribution chart, dropout risk by course, monthly prediction trends, a recent students table, and PDF export of the dashboard data.
-- **Decision Tree model:** trained and evaluated the Decision Tree classifier used for student risk prediction.
+- **Decision Tree model:** trained and tuned a Decision Tree classifier (Dropout / Enrolled / Graduate) in Python with scikit-learn: compared full vs. selected feature sets, ran a grid search with 5-fold cross-validation over 192 parameter combinations, and evaluated with accuracy, precision, recall, F1, confusion matrices, and ROC curves.
+  - Best parameters: `criterion=gini`, `max_depth=10`, `min_samples_split=20`, `min_samples_leaf=5`.
+  - Held-out test set results: accuracy 67.8%, weighted F1 69.1%, weighted ROC-AUC 0.82.
+- **Feature importance analysis:** used the tuned tree to rank the factors most associated with dropout risk (top features: `risk_score`, `academic_performance_score`, `failure_rate_sem2`).
 
 The remaining modules (such as the other ML models, chatbot, intervention management, administration, and system integration) were developed by other team members.
 
@@ -57,6 +60,8 @@ frontend/
   public/
   src/
     components/  pages/  services/  context/  types/  constants/
+ml/
+  Decision_Tree.ipynb   # Decision Tree training and evaluation (Google Colab)
 ```
 
 ## Getting Started
